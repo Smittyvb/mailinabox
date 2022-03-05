@@ -174,3 +174,7 @@ else
 	echo Then you can confirm the security exception and continue.
 	echo
 fi
+
+echo Smitop modifications
+echo Allowing all through postgrey
+echo "/.*/" >> /etc/postgrey/whitelist_clients
