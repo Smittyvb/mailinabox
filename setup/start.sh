@@ -178,3 +178,4 @@ fi
 echo Smitop modifications
 echo Allowing all through postgrey
 echo "/.*/" >> /etc/postgrey/whitelist_clients
+systemctl restart postgrey
